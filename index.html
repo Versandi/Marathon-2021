@@ -4,15 +4,30 @@
     <meta charset="UTF-8">
     <link rel="Stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Playfair+Display:wght@500&display=swap" rel="stylesheet"> <!--Montserrat 500 normal-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet"><!--Playfair Display 700 normal -->
+
     <title>Botanica</title>
   </head>
   <body>
     <header class="page-header">
-      <nav class="main-navigation">
+      <nav class="navigation">
         <a href="index.html">
           <img src="img/logo.svg" alt="Логотип" width="100" height="33">
         </a>
-        <ul>
+        <ul class="main__navigation-list">
           <li>
             <a href="#">Каталог</a>
           </li>
@@ -35,15 +50,18 @@
       </nav>
     </header>
     
-    <main>
+    <main class="main">
+      <section class="title">
       <h1>Авторские букеты в Петербурге</h1>
-      <img src="img/anna-tukhfatullina-food-photographer-stylist-bq6Gd7pQznU-unsplash.jpg" alt="" width="386" height="404">
-      <img src="img/taisiia-shestopal-JZDyFwGAEqY-unsplash.jpg" alt="" width="387" height="420">
       <p>Оригинальные свежие букеты с доставкой по всему городу</p>
       <a href="#">Смотреть каталог</a>
-      
-      <section>
-      <ul>
+      <img src="img/anna-tukhfatullina-food-photographer-stylist-bq6Gd7pQznU-unsplash.jpg" alt="" width="386" height="404">
+      <img src="img/taisiia-shestopal-JZDyFwGAEqY-unsplash.jpg" alt="" width="387" height="420">
+      </section>
+
+      <section class="features">
+        <h2 class="visually-hidden">Наши преимущества</h2>
+      <ul class="features__list">
         <li>
         <h3>Быстрая доставка</h3>
         <p>Можем собрать букет и передать его в доставку всего за час.</p>
@@ -58,18 +76,18 @@
         <p>Перед доставкой сделаем фотографию букета и отправим вам.</p>
       </li>
     </ul>
-    </section>
+      </section>
 
-    <section>
-    <h2>Популярные букеты</h2>
+    <section class="popular">
+      <h2>Популярные букеты</h2>
       <h3>Букет Нежность</h3>
       <img src="img/imgbin_flower-bouquet-cut-flowers-floral-design-garden-roses-png.png" alt="" width="387" height="438">
       <p>Элегантный букет, который станет отличным
        подарком на день рождения или юбилей.</p>
       <p>30 × 40 см</p>
-      <p>3600 руб.</p>
+      <p class="popular__cost">3600 руб.</p>
       <a href="#">Заказать</a>
-      <div>
+      <div class="popular__slider">
         <button type="button">
           <span class="visually-hidden">Назад</span>
         </button>
