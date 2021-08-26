@@ -95,3 +95,55 @@
   line-height: 20px;
   text-decoration: none;
 }
+
+.discount {
+  background-color: #ae7c78;
+}
+
+.discount > h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 44px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 59px;
+  color: #ffffff;
+}
+
+.discount p {
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.steps h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 36px;
+  line-height: 48px;
+}
+
+ul.steps__list {
+  list-style-type: none;
+}
+
+.steps__list h3 {
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.steps__list p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.news h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 36px;
+  line-height: 48px;
+}
