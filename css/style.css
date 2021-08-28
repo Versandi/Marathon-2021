@@ -9,7 +9,7 @@
   font-size: 16px;
   font-weight: 400;
   font-style: normal;
-  line-height: 19.5px;
+  line-height: 20px;
 }
 
 .main {
@@ -146,4 +146,23 @@ ul.steps__list {
   font-style: normal;
   font-size: 36px;
   line-height: 48px;
+}
+
+.reviews h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 36px;
+  line-height: 48px;
+}
+
+.reviews__text {
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.reviews__autor {
+  font-weight: 500;
+  line-height: 20px;
+  font-style: normal;
 }
