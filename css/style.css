@@ -166,3 +166,50 @@ ul.steps__list {
   line-height: 20px;
   font-style: normal;
 }
+
+.contacts h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 36px;
+  line-height: 48px;
+}
+
+.contacts__definition {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.contacts__description {
+  font-weight: 500;
+  line-height: 20px;
+  font-style: normal;
+}
+
+.contacts__description a {
+  font-weight: 500;
+  line-height: 20px;
+  font-style: normal;
+  color: #ae7c78;
+  text-decoration: none;
+}
+
+.footer {
+  background-color: #ae7c78;
+}
+
+.footer__navigation-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.footer__navigation-list li > a {
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  text-decoration: none;
+}
